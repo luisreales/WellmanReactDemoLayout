@@ -3,7 +3,7 @@ import styles from './ActivityCard.module.css';
 import IconButton from './IconButton';
 import StatusIndicator from './StatusIndicator';
 import Header from './Header/Header';
-
+import DailyActivity from './DailyActivity/DailyActivity';
 const ActivityCard = () => {
   return (
     <section className={styles.card}>
@@ -31,6 +31,7 @@ const ActivityCard = () => {
         <StatusIndicator status="Active" />
        <div>
        <Header />
+       <DailyActivity />
        </div>
       </div>
     </section>
