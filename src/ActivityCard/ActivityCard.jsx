@@ -4,6 +4,7 @@ import IconButton from './IconButton';
 import StatusIndicator from './StatusIndicator';
 import Header from './Header/Header';
 import DailyActivity from './DailyActivity/DailyActivity';
+
 const ActivityCard = () => {
   return (
     <section className={styles.card}>
@@ -30,8 +31,9 @@ const ActivityCard = () => {
         <div className={styles.statusLabel}>Status</div>
         <StatusIndicator status="Active" />
        <div>
-       <Header />
-       <DailyActivity />
+       {/* <Header /> */}
+       {/* <DailyActivity /> */}
+      
        </div>
       </div>
     </section>

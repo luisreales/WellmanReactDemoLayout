@@ -3,15 +3,16 @@ import "./App.css";
 import NavSidebar from "./NavSidebar/NavSidebar";
 import NavBar from "./NavBar/NavBar";
 import BoxActivityCard from "./BoxActivityCard/BoxActivityCard";
+import FormActiviy from "./ActivityCard/FormActivity/FormActivity";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavSidebar /> */}
+      <NavSidebar />
       <div className="content">
         <NavBar />
-        <BoxActivityCard / >
-        
+        {/* <BoxActivityCard / > */}
+        <FormActiviy />
          
         
         {/* Your other content will go here */}
