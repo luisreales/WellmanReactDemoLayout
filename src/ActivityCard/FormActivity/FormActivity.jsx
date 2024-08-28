@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Sidebar from './SideBar';
 import styles from './FormActivity.module.css';
 
+
 function FormActiviy() {
   const navBarProps = {
     title: 'Daily Costs',
@@ -14,7 +15,9 @@ function FormActiviy() {
   return (
     <main className={styles.dailyCostsContainer}>
       <Sidebar />
+      
       <NavBar {...navBarProps} />
+     
     </main>
   );
 }
