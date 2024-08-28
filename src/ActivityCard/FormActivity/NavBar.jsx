@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./FormActivity.module.css";
 import TimeLogComponent from "./TimeLog/TimeLogComponent";
+import DailyCosts from "./DailyCost/DailyCosts";
 
 function NavBar({ title, activity, well, isCompleted }) {
   return (
@@ -67,7 +68,9 @@ function NavBar({ title, activity, well, isCompleted }) {
         </header>
       </div>
       <div>
-        <TimeLogComponent />
+        {/* La comento, para que visualicen el daily cost */}
+        <DailyCosts />
+        {/* <TimeLogComponent /> */}
       </div>
     </div>
   );
